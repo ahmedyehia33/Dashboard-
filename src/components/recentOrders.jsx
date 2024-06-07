@@ -2,7 +2,7 @@ import React from 'react';
 const recentOrderData = [
 	{
 		id: '1',
-		product_id: '4324',
+		product_id: 	'4324',
 		customer_id: '23143',
 		customer_name: 'Shirley A. Lape',
 		order_date: '2022-05-17T03:24:00',
@@ -66,7 +66,7 @@ const recentOrderData = [
 const RecentOrders = () => {
     return ( 
             <>
-            <div className="bg-white px-4 pt-4 pb-4 w-full border border-gray-400 flex-1 rounded-sm  ml-1 mr-3 mb-4 mt-0">
+            <div className="bg-white px-4 pt-4 pb-4 w-full border border-gray-400 flex-1 rounded-sm  ml-1 mr-3 mb-4 ">
                 <strong className='text-gray-700 font-md'>Recent Orders</strong>
                 <div className="mt-1">
                     <table>
